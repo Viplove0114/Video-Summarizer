@@ -11,7 +11,7 @@ One-stop solution to automatically summarize videos using AI.
 ## Features
 
 - **Video Input:** Accepts local video files.
-- **AI-Powered Analysis:** Uses Gemini 2.0 Flash Exp for multimodal understanding.
+- **AI-Powered Analysis:** Uses Gemini 2.5 Flash for multimodal understanding.
 - **Web Search Integration:** Gathers supplementary information using DuckDuckGo.
 - **Interactive Q&A:** Ask any question about your uploaded video and get a detailed response.
 - **Easy Setup:** Lightweight Python script with minimal dependencies.
@@ -49,7 +49,7 @@ pip install -r requirements.txt
 1. Create a `.env` file in the root directory.
 2. Add your API key:
     ```
-    GOOGLE_API_KEY=your_google_api_key_here
+    GOOGLE_API_KEY="your_google_api_key_here"
     ```
    *(You may also use `OPENAI_API_KEY` if using OpenAI models.)*
 
