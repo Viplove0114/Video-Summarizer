@@ -25,6 +25,7 @@ One-stop solution to automatically summarize videos using AI.
 ├── requirements.txt    # Python dependencies
 └── .gitignore          # Ignored files for Git
 
+---
 
 ## Getting Started
 Prerequisites
