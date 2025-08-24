@@ -27,7 +27,7 @@ st.set_page_config(
 )
 
 st.title("PhiData Multimodal AI Agent 🎥🎤🖬 ")
-st.header("Powered by Gemini 2.0 Flash Exp")
+st.header("Powered by Gemini 2.5 Flash")
 
 
 @st.cache_resource
